@@ -1,0 +1,14 @@
+[input]
+base_directory = "../orta-contrib.github.io/content/posts/youtube"
+url_prefix = "https://orta-contrib.github.io/posts/youtube"
+
+files = [
+  {path = "20201015-vscode-debug-visualizer.md", url = "/20201015-vscode-debug-visualizer", title = "20201015-vscode-debug-visualizer"},
+  {path = "20201016-vscode-foam.md", url = "/20201016-vscode-foam", title = "20201016-vscode-foam"},
+  {path = "20201023-actionsflow.md", url = "/20201023-actionsflow", title = "20201023-actionsflow"},
+  {path = "20201028-bubbletea.md", url = "/20201028-bubbletea", title = "20201028-bubbletea"},
+  {path = "20201106-ffmpeg-wasm.md", url = "/20201106-ffmpeg-wasm", title = "20201106-ffmpeg-wasm"}
+]
+
+[output]
+filename = "my_index.st"

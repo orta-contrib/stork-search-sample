@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Federalist Search</title>
+    <link rel="stylesheet" href="https://files.stork-search.net/dark.css" />
+  </head>
+  <body style="background-color: black;">
+    <div class="stork-wrapper">
+      <input data-stork="blog" class="stork-input" />
+      <div data-stork="blog-output" class="stork-output"></div>
+    </div>
+    <script src="https://files.stork-search.net/stork.js"></script>
+    <script>
+      stork.register(
+        'blog',
+        '/my_index.st',
+        {showScores: true}
+      )
+    </script>
+  </body>
+</html>
